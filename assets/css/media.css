@@ -1,0 +1,6 @@
+@media screen and (min-width: 581px) and (max-width: 779px){
+    .first_header{padding: 50px; display: flex; flex-direction: column;};
+    .main_image{width: 30%;}
+    .header_content{display: flex; flex-direction: column; margin-top: 0;};
+    .header_call{margin-left: 0px;}
+}
