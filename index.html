@@ -1,228 +1,189 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hamburgueria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
-    <!-- link CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/media.css">
-</head>
-<body>
-    <header>
-        <div class="first_header">
-            <div class="logo_image">
-                <img src="assets/img/logo.png" alt="">
+
+  </head>
+  <body>
+    <div class="container-fluid bg">
+        <nav class="navbar">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" alt="" width="" height="50">
+              </a>
+              <div class="adress-header">
+                <img src="assets/img/motoca.png" height="40" alt="">
+                <p style="margin-bottom: 3px;">Express Delivery +1 234 567 890</p>
+              </div>
             </div>
-            <div class="motinha">
-                <img src="assets/img/motoca.png" alt="">
-                <div class="texto-motinha">
-                    Express Delivery +1 234 567 890
+        </nav>
+
+        <ul class="nav justify-content-end" style="margin-right: 100px;">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MENU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">OUR STORY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT US</a>
+            </li>
+        </ul>
+
+        <div class="container principal" style="margin-top: 80px;">
+            <div class="row" style="display: flex; align-items: center;">
+                <div class="col">
+                  <div class="call-field">
+                    <p class="title">it is a good time fot the great taste of burgers</p><br>
+                    <p class="sub">burguer<br>week</p>
+                  </div>
                 </div>
-            </div>
 
+                <div class="col">
+                  <img src="assets/img/burger-completo.png" alt="" width="90%">
+                </div>
+              </div>
         </div>
+    </div>
+    <!-- header -->
 
-        <div class="menu">
-            <nav>
-                <ul>
-                    <li>home</li>
-                    <li>menu</li>
-                    <li>our story</li>
-                    <li>contact us</li>
-                </ul>
-            </nav>
-        </div>
-
-        <div class="header_content">
-            <div class="header_call">
-                <p class="first_text">it is a good time fot the great taste of burgers</p>
-
-                <p class="second second_text">burger</p>
-                <p class="second third_text">week</p>
-            </div>
-
-            <div class="main_image">
-                <img src="assets/img/burger-completo.png" alt="">
-            </div>
-        </div>
-    </header>
-
-    <main>
-        <section class="first_images">
-            <div class="image1">
+    <div class="container-fluid">
+        <div class="container" style="margin-top: 70px; margin-bottom: 40px">
+            <div class="row combos">
+              <div class="col">
                 <img src="assets/img/Burger-Image1.png" alt="">
+              </div>
+              <div class="col">
+                <img src="./assets/img/Burger-Image2.png" alt="">
+                <img src="./assets/img/Burger-Image3.png" alt="">
+              </div>
             </div>
-            <div class="images_right">
-                <div class="image2">
-                    <img src="assets/img/Burger-Image2.png" alt="">
-                </div>
-                <div class="image3">
-                    <img src="assets/img/Burger-Image3.png" alt="">
-                </div>
-            </div>
-        </section>
+        </div>
+        <!-- 3 imagens -->
 
-        <section class="center_field">
-            <div class="btn_center">
-                <button>always tasty burguer</button>
-                <div class="call_text">
-                    <p>choose & enjoy</p>
-                </div>
-                <div class="call_paragraph">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore id ab minus modi vitae porro necessitatibus dolorem perferendis doloribus! Dolor minima placeat aut hic, voluptatum corporis repellendus consequuntur rem quis!</p>
-                </div>
-            </div>
-        </section>
+        <div class="container-fluid chose">
+            <button type="button" class="btn btn-outline-warning" style="margin-bottom: 30px;">always tasty burguer</button>
+            <h2 class="sub">CHOSE & ENJOY</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et explicabo beatae ad mollitia vero culpa ut voluptatum cumque quaerat praesentium error excepturi, blanditiis quas corporis non temporibus quam alias modi.</p>
+        </div>
+        <!-- textos e botao do meio -->
 
-        <section class="burguers">
-            <div class="burguer">
-                <div class="lanchao">
-                    <img src="assets/img/4.png" alt="">
-                </div>
-                <div class="card_words">
-                    <div class="title">
-                        <p>lorem ipsum dolor</p>
-                    </div>
-                    <div class="text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum libero natus soluta.</p>
-                    </div>
-                    <div class="btn_card">
-                        <button>order now</button>
-                    </div>
-                </div>
+        <div class="container text-center" style="margin-top: 30px;">
+            <div class="row burguers">
+              <div class="col">
+                <img src="assets/img/4.png" alt="">
+                <h3>LOREM IPSUM DOLOR</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum sequi qui tenetur</p>
+                <button type="button" class="btn btn-outline-success">ORDER NOW</button>
+              </div>
+              <div class="col">
+                <img src="assets/img/5.png" alt="">
+                <h3>LOREM IPSUM DOLOR</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum sequi qui tenetur</p>
+                <button type="button" class="btn btn-outline-success">ORDER NOW</button>
+              </div>
+              <div class="col">
+                <img src="assets/img/4.png" alt="">
+                <h3>LOREM IPSUM DOLOR</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum sequi qui tenetur</p>
+                <button type="button" class="btn btn-outline-success">ORDER NOW</button>
+              </div>
             </div>
+        </div>
+        <!-- 3 lanches para comprar -->
 
-            <div class="burguer">
-                <div class="lanchao">
-                    <img src="assets/img/5.png" alt="">
+        <div class="container events" style="margin-top: 80px; width: 70%;">
+            <div class="row">
+                <div class="col">
+                <p class="title" style="font-size: 20px; margin-bottom: 3px;">DISCOVER</p>
+                <p class="sub">UPCOMING EVENTS</p>
+                <br>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure rerum, praesentium voluptates dignissimos unde laborum tempora eligendi id ducimus magni. Fugit ut quaerat laborum facere impedit modi, blanditiis eius ex?</p>
                 </div>
-                <div class="card_words">
-                    <div class="title">
-                        <p>lorem ipsum dolor</p>
-                    </div>
-                    <div class="text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum libero natus soluta.</p>
-                    </div>
-                    <div class="btn_card">
-                        <button>order now</button>
-                    </div>
+                <div class="col">
+                <img src="assets/img/burger7.png" alt="" width="100%">
                 </div>
             </div>
-
-            <div class="burguer">
-                <div class="lanchao">
-                    <img src="assets/img/6.png" alt="">
-                </div>
-                <div class="card_words">
-                    <div class="title">
-                        <p>lorem ipsum dolor</p>
-                    </div>
-                    <div class="text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum libero natus soluta.</p>
-                    </div>
-                    <div class="btn_card">
-                        <button>order now</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="events">
-            <div class="events_words">
-                <div class="title_events">
-                    <p>discover</p>
-                </div>
-                <div class="subtitle_events">
-                    <p>upcoming events</p>
-                </div>
-                <div class="events_paragraph">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum repellendus optio excepturi quibusdam animi nesciunt officiis adipisci praesentium sit, alias magnam harum modi molestias labore provident sapiente? Nemo, ab dolor.</p>
-                </div>
-            </div>
-            <div class="events_image">
-                <img src="assets/img/burger7.png" alt="">
-            </div>
-        </section>
+        </div> 
+        <!-- eventos -->
         
-        <div class="emojis">
-            <div class="emoji_burguer">
-                <img src="" alt="">
-            </div>
-
-            <div class="emoji_pimenta">
-                <img src="" alt="">
+        <div class="container form" style="margin-top: 100px; margin-bottom: 80px;">
+            <p class="title" style="font-size: 20px; margin-bottom: 0;">RESERVATION</p>
+            <p class="sub" style="font-size: 30px;">BOOK YOUR TABLE</p>
+            <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput">
+                        <label for="floatingInput">NAME</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="date" class="form-control" id="floatingDate" placeholder="Date">
+                        <label for="floatingDate">DATE</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control" id="floatingInput">
+                        <label for="floatingInput">PEOPLE</label>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">E-MAIL</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control" id="floatingInput">
+                        <label for="floatingInput">TIME</label>
+                    </div>
+                    <button type="button" class="btn btn-outline-success sub" style="width: 100%; height: 56px;">FIND A TABLE</button>
+                  </div>  
+                </div>
             </div>
         </div>
+        <!-- formulario -->
 
-        <section class="form_field"> 
-            <div class="title_form">
-                <p>reservation</p>
-            </div>
-
-            <div class="subtitle_form">
-                <p>book your table</p>
-            </div>
-
-            <form>
-                <div class="column_field">
-                    <input type="text" placeholder="NAME">
-                    <input type="number" placeholder="DATE">
-                    <input type="text" placeholder="PEOPLE">
-                </div>
-                <div class="column_field">
-                    <input type="email" placeholder="EMAIL">
-                    <input type="number" placeholder="TIME">
-                    <div class="btn_form">
-                        <button>find a table</button>
-                    </div>
-                </div>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <div class="first_footer">
-            <div class="text_footer">
-                
-                <div class="image_footer">
+        <div class="container bg-footer" style="padding-left: 35px; padding-right: 35px;">
+            <footer class="py-5">
+                <div class="row footer-align">
+                  <div class="col-6 mb-3">
                     <img src="assets/img/logo-footer.png" alt="">
-                </div>
-                
-                <div class="paragraph_footer">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, commodi ipsam? Perspiciatis vel eaque asperiores earum nulla nesciunt hic cupiditate laboriosam est in quia quam rerum, modi, id unde magnam!</p>
-                </div>
-            </div>
-            <div class="adress_footer">
-                <div class="location">
-                    <div class="icon">
-                        <img src="assets/img/location.png" alt="">
+                    <p class="footer-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, beatae nobis ea, amet molestiae consequuntur magni autem quasi placeat quas hic sed officia modi libero, provident minus. Nostrum, laudantium? A.</p>
+                  </div>
+            
+                  <div class="col-md-5 offset-md-1 mb-4">
+                    <div class="location">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                        <p class="footer-text">main road, building name, country</p>
                     </div>
-                    <div class="adress">
-                        <p>main road, building name, country</p>
+                    <div class="location">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0z" fill="none"/><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                        <p class="footer-text">info@companyname.com</p>
                     </div>
+                  </div>
                 </div>
-                <div class="location">
-                    <div class="icon">
-                        <img src="assets/img/email.png" alt="">
-                    </div>
-                    <div class="adress">
-                        <p>info@companyname.com</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+            
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-2 border-top">
+                  <p class="footer-text">&copy; 2022 Company, Inc. All rights reserved.</p>
+                  <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-dark" href="#"><?xml version="1.0"?><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="30px" height="30px">    <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"/></svg></a></li>
 
-        <div class="second_footer">
-            <div class="copy">
-                &copy; company name 2020 all rights reserved.
-            </div>
-            <div class="social">
+                    <li class="ms-3"><a class="link-dark" href="#"><?xml version="1.0"?><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px">    <path d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z"/></svg></a></li>
 
-            </div>
+                    <li class="ms-3"><a class="link-dark" href="#"><?xml version="1.0"?><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px">    <path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"/></svg></a></li>
+                  </ul>
+                </div>
+            </footer>
         </div>
-    </footer>
-</body>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
 </html>
